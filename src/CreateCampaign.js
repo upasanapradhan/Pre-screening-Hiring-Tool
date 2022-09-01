@@ -66,7 +66,11 @@ const CreateCampaign = ({ challenges }) => {
   const heading = <h2> Create a Campaign</h2>;
   const handleNextStep = () => {
     setCurrentStep(STEPS.CREATE_LINK);
-    navigator.clipboard.writeText("http://localhost:3000/instructions");
+    navigator.clipboard.writeText(
+      process.env.NODE_ENV === "development"
+        ? "http://localhost:3000/instructions"
+        : "https://pre-screening-hiring-tool.herokuapp.com/instructions"
+    );
   };
   switch (currentStep) {
     case STEPS.CAMPAIGN_NAME:
