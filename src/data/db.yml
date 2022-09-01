@@ -1,0 +1,209 @@
+name: Programiz Challenges
+challenges_list:
+  - id: 1
+    title: "Simple interest"
+    difficulty_level: "easy"
+    expected_time: "5m"
+    xp: 100
+    problem_statement: "Create a program to calculate the simple interest and the final amount."
+    test_input: "20 25"
+    test_output: 5
+    input_type: "integer"
+    hidden_test_inputs:
+      - input: "20 21"
+        output: 1
+      - input: "12 10"
+        output: -2
+  - id: 2
+    title: "Perfect Square"
+    difficulty_level: "hard"
+    expected_time: "10m"
+    xp: 200
+    problem_statement: "Write a program to check if a number is a perfect square or not."
+    test_input: "20 25"
+    test_output: 5
+    input_type: "integer"
+    hidden_test_inputs:
+      - input: "20 21"
+        output: 1
+      - input: "12 10"
+        output: -2
+  - id: 3
+    title: "Check Prime or Not"
+    difficulty_level: "medium"
+    expected_time: "7m"
+    xp: 200
+    problem_statement: "Write a program to check whether a number is prime or not."
+    test_input: "20 25"
+    test_output: 5
+    input_type: "integer"
+    hidden_test_inputs:
+      - input: "20 21"
+        output: 1
+      - input: "12 10"
+        output: -2
+campaigns:
+  - id: 1
+    title: "Aug 2022 Python"
+    admin_account_id: 1
+    expiring_on: "3-SEP-2022"
+    active: true
+    challenges_list:
+      - id: 1
+        title: "Simple interest"
+        difficulty_level: "easy"
+        expected_time: "5m"
+        xp: 100
+        problem_statement: "Create a program to calculate the simple interest and the final amount."
+        test_input: "20 25"
+        test_output: 5
+        input_type: "integer"
+        hidden_test_inputs:
+            - input: "20 21"
+              output: 1
+            - input: "12 10"
+              output: -2
+      - id: 2
+        title: "Perfect Square"
+        difficulty_level: "hard"
+        expected_time: "10m"
+        xp: 200
+        problem_statement: "Write a program to check if a number is a perfect square or not."
+        test_input: "20 25"
+        test_output: 5
+        input_type: "integer"
+        hidden_test_inputs:
+            - input: "20 21"
+              output: 1
+            - input: "12 10"
+              output: -2
+      - id: 3
+        title: "Check Prime or Not"
+        difficulty_level: "medium"
+        expected_time: "7m"
+        xp: 200
+        problem_statement: "Write a program to check whether a number is prime or not."
+        test_input: "20 25"
+        test_output: 5
+        input_type: "integer"
+        hidden_test_inputs:
+            - input: "20 21"
+              output: 1
+            - input: "12 10"
+              output: -2
+  - id: 2
+    title: "Jul 2022 Python"
+    admin_account_id: 1
+    expiring_on: "3-SEP-2022"
+    active: true
+    challenges_list:
+      - id: 1
+        title: "Simple interest"
+        difficulty_level: "easy"
+        expected_time: "5m"
+        xp: 100
+        problem_statement: "Create a program to calculate the simple interest and the final amount."
+        test_input: "20 25"
+        test_output: 5
+        input_type: "integer"
+        hidden_test_inputs:
+            - input: "20 21"
+              output: 1
+            - input: "12 10"
+              output: -2
+      - id: 2
+        title: "Perfect Square"
+        difficulty_level: "hard"
+        expected_time: "10m"
+        xp: 200
+        problem_statement: "Write a program to check if a number is a perfect square or not."
+        test_input: "20 25"
+        test_output: 5
+        input_type: "integer"
+        hidden_test_inputs:
+            - input: "20 21"
+              output: 1
+            - input: "12 10"
+              output: -2
+      - id: 3
+        title: "Check Prime or Not"
+        difficulty_level: "medium"
+        expected_time: "7m"
+        xp: 200
+        problem_statement: "Write a program to check whether a number is prime or not."
+        test_input: "20 25"
+        test_output: 5
+        input_type: "integer"
+        hidden_test_inputs:
+            - input: "20 21"
+              output: 1
+            - input: "12 10"
+              output: -2
+
+employers_list:
+  - id: 1
+    name: "Programiz"
+  - id: 2
+    name: "Reduct"
+
+admin_accounts:
+  - id: 1
+    email: "punit@programiz.com"
+    employer_id: 1
+  - id: 2
+    email: "upasana@humanassisted.ai"
+    employer_id: 2
+
+attempts:
+  - id: 1
+    campaign_id: 1
+    campaign_name: "Aug 2022 Python"
+    employer_name: "Reduct"
+    candidate_email: "shrusha@humanassisted.ai"
+    candidate_name: "Shrusha"
+    current_challenge_idx: 0
+    challenges_list:
+      - id: 1
+        title: "Simple interest"
+        difficulty_level: "easy"
+        expected_time: "5m"
+        xp: 100
+        problem_statement: "Create a program to calculate the simple interest and the final amount."
+        test_input: "20 25"
+        test_output: 5
+        input_type: "integer"
+        hidden_test_inputs:
+          - input: "20 21"
+            output: 1
+          - input: "12 10"
+            output: -2
+        elapsed_time: "1m2s"
+        submitted_code: ""
+        tests_passed: true
+        code_history:
+          - elapsed_time: "1s"
+            code: "pri"
+          - elapsed_time: "3s"
+            code: "print("
+      - id: 2
+        title: "Perfect Square"
+        difficulty_level: "hard"
+        expected_time: "10m"
+        xp: 200
+        problem_statement: "Write a program to check if a number is a perfect square or not."
+        test_input: "20 25"
+        test_output: 5
+        input_type: "integer"
+        hidden_test_inputs:
+          - input: "20 21"
+            output: 1
+          - input: "12 10"
+            output: -2
+        elapsed_time: "1m2s"
+        submitted_code: ""
+        tests_passed: true
+        code_history:
+          - elapsed_time: "1s"
+            code: "pri"
+          - elapsed_time: "3s"
+            code: "print("

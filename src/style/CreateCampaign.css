@@ -1,0 +1,45 @@
+.main-container{
+    display:flex;
+    align-items:center;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.textbox {
+  width: 100%;
+  height: 30px;
+}
+.challenge-container{
+  display:flex;
+  flex-direction:column;
+  align-items: flex-start;
+  justify-content: center;
+  width:100%;
+}
+.challenge-table {
+  margin-top: 20px;
+  display: table;
+  text-align: left;
+  width: 100%;
+}
+.challenge-table-head {
+  padding-inline-end: 10px;
+}
+.challenge-table-body {
+  padding: 20px;
+}
+
+.view-button {
+  background-color: var(--blue);
+  border-radius: 4px;
+  border: 2px solid var(--gray);
+}
+.link-container{
+  display:flex;
+  flex-direction:column;
+  align-items: flex-start;
+  justify-content: center;
+}
