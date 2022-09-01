@@ -31,7 +31,7 @@ const ChallengesSelector = ({
 
   const tableData =
     challengesList &&
-    challengesList.map((challenge,idx) => {
+    challengesList.map((challenge, idx) => {
       return (
         <tr key={idx}>
           <td>
@@ -67,9 +67,9 @@ const CreateCampaign = ({ challenges }) => {
   const handleNextStep = () => {
     setCurrentStep(STEPS.CREATE_LINK);
     navigator.clipboard.writeText(
-      process.env.NODE_ENV === "development"
-        ? "http://localhost:3000/instructions"
-        : "https://pre-screening-hiring-tool.herokuapp.com/instructions"
+      process.env.NODE_ENV === "production"
+        ? "https://pre-screening-hiring-tool.herokuapp.com/instructions"
+        : "http://localhost:3000/instructions"
     );
   };
   switch (currentStep) {
