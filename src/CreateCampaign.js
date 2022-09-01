@@ -67,9 +67,7 @@ const CreateCampaign = ({ challenges }) => {
   const handleNextStep = () => {
     setCurrentStep(STEPS.CREATE_LINK);
     navigator.clipboard.writeText(
-      process.env.NODE_ENV === "production"
-        ? "https://pre-screening-hiring-tool.herokuapp.com/instructions"
-        : "http://localhost:3000/instructions"
+      "https://pre-screening-hiring-tool.herokuapp.com/instructions"
     );
   };
   switch (currentStep) {
